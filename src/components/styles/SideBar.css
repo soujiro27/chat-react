@@ -1,0 +1,83 @@
+.Sidebar{
+    background: #2c3e50;
+    width: 20%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.Sidebar__logo__container{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around;
+    padding: 5px 5px 20px 5px;
+
+
+}
+
+.Sidebar__logo__container img {
+    width: 75%;
+}
+
+.Sidebar__logo__container div{
+    line-height: 65px;
+    width: 10%;
+    text-align: center;
+    color:white;
+}
+
+.Sidebar__status__container, .Sidebar__search__container {
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.Sidebar__status-check, .Sidebar__status-text{
+    background: rgba(255,255,255,.1);
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
+    height: 20px;
+    justify-content: space-around;
+}
+.Sidebar__status-check{
+    width: 15%;
+    margin-right: 10px;
+
+}
+
+.Sidebar__status-text{
+    width: 80%;
+    color:#fff
+}
+
+.Sidebar__status-check div .fa-circle{
+    color:#16a085;
+}
+.Sidebar__status-check div .fa-sort-down{
+    color:#fff;
+    font-size: 14px;
+}
+
+.Sidebar__search__container{
+    justify-content: space-around;
+}
+
+.Sidebar__search__container input{
+    padding: 6px;
+    width: 80%;
+    border:none;
+    border-radius: 10px;
+}
+
+.Sidebar__favorites{
+
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around;
+    padding: 5px 20px 20px 20px;
+}
+
+
+
+.Sidebar__title{
+    color:white
+}

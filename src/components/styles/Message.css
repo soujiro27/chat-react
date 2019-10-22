@@ -1,0 +1,15 @@
+.Message{
+    border: 1px solid #afafaf;
+    width: 90%;
+    margin:15px auto;
+    padding: 6px;
+    box-shadow: 2px 2px 2px #efefef;
+}
+
+.Message__user{
+    display: flex;
+}
+
+.Message__user-name{
+    margin: auto 10px;
+}

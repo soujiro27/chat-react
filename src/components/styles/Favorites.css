@@ -1,0 +1,23 @@
+.Favorite__badge{
+    display: flex;
+    margin:10px 0px
+}
+
+.Favorite__badge .Avatar{
+    margin: 0px 10px;
+}
+.Favorite__badge p{
+    color:white;
+ }
+
+ #red{
+    color:#fff
+}
+
+#green{
+    color:#27ae60;
+}
+
+#yellow{
+    color:#afafaf;
+}
